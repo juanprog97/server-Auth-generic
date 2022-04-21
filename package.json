@@ -1,0 +1,24 @@
+{
+  "name": "auth-noder-server-automaticallyy",
+  "version": "1.0.0",
+  "description": "This is a implementation auth node server with auto-refresh jwt token ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "keywords": [
+    "auth",
+    "csrf",
+    "jwt",
+    "node",
+    "access-token",
+    "refresh-token"
+  ],
+  "author": "Juanprog97",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
